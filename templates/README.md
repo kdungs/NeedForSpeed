@@ -1,5 +1,5 @@
 # Templates
-Here are two examples where the use of templates is superior to what some people
+Here is an example where the use of templates is superior to what some people
 might call the intuitive way.
 
 The clang-specific `__attribute__ ((noinline))` is used in the examples
@@ -46,6 +46,3 @@ the function performs an additional (and potentially expensive) jump.
 
 _This is not the whole story._ In reality a CPU performs speculative branching
 and other optimizations, that probably deserve another example...
-
-
-## Functions as Parameters
