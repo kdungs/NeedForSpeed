@@ -1,7 +1,4 @@
-#include "timer.hpp"
-
-__attribute__ ((noinline)) void doSomething() { doNotOptimizeAway(42); }
-__attribute__ ((noinline)) void doSomethingElse() { doNotOptimizeAway(23); }
+#include "helpers.hpp"
 
 __attribute__ ((noinline)) void funWithFlagParam(bool flag) {
   if (flag) {
